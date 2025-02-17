@@ -14,6 +14,7 @@
         if (qtdPeixes > 50)
         {
             Console.WriteLine("Super lotação de peixes. Não é possível iniciar o jogo!");
+            return; 
         }
 
 Console.Write("Número de Jogadores: ");
