@@ -1,0 +1,14 @@
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\bin\Debug\net8.0\Pesca.exe
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\bin\Debug\net8.0\Pesca.deps.json
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\bin\Debug\net8.0\Pesca.runtimeconfig.json
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\bin\Debug\net8.0\Pesca.dll
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\bin\Debug\net8.0\Pesca.pdb
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\obj\Debug\net8.0\Pesca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\obj\Debug\net8.0\Pesca.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\obj\Debug\net8.0\Pesca.AssemblyInfo.cs
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\obj\Debug\net8.0\Pesca.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\obj\Debug\net8.0\Pesca.dll
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\obj\Debug\net8.0\refint\Pesca.dll
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\obj\Debug\net8.0\Pesca.pdb
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\obj\Debug\net8.0\Pesca.genruntimeconfig.cache
+C:\Users\aluno\Documents\Luis Otávio 1DS2\C#\Pesca\Pesca\obj\Debug\net8.0\ref\Pesca.dll
