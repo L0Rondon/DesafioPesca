@@ -6,7 +6,17 @@
         Console.Write("Quantos Peixes tem no lago: ");
         qtdPeixes = int.Parse(Console.ReadLine());
 
-        Console.Write("Número de Jogadores: ");
+        if (qtdPeixes == 0)
+        {
+            Console.WriteLine("Não é possível iniciar o jogo! Não existem peixes no lago.");
+            return;
+        }
+        if (qtdPeixes > 50)
+        {
+            Console.WriteLine("Super lotação de peixes. Não é possível iniciar o jogo!");
+        }
+
+Console.Write("Número de Jogadores: ");
         qtdPessoas = int.Parse(Console.ReadLine());
 
         Console.Write("Número de Iscas/Tentativas: ");
