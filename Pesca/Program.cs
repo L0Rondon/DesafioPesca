@@ -2,33 +2,35 @@
     
         int qtdPeixes, qtdPessoas, qtdIscas;
 
-        // Entradas
-        Console.Write("Quantos Peixes tem no lago: ");
-        qtdPeixes = int.Parse(Console.ReadLine());
+// Entradas
+do
+{
+    Console.Write("Quantos Peixes tem no lago: ");
+    qtdPeixes = int.Parse(Console.ReadLine());
+    if (qtdPeixes == 0)
+    {
+        Console.WriteLine("Não é possível iniciar o jogo! Não existem peixes no lago.");
+    }
+    if (qtdPeixes > 50)
+    {
+        Console.WriteLine("Super lotação de peixes. Não é possível iniciar o jogo!");
+    }
+} while( qtdPeixes == 0 || qtdPeixes > 50);
 
-        if (qtdPeixes == 0)
-        {
-            Console.WriteLine("Não é possível iniciar o jogo! Não existem peixes no lago.");
-            return;
-        }
-        if (qtdPeixes > 50)
-        {
-            Console.WriteLine("Super lotação de peixes. Não é possível iniciar o jogo!");
-            return; 
-        }
+do
+{
+    Console.Write("Número de Jogadores: ");
+    qtdPessoas = int.Parse(Console.ReadLine());
 
-Console.Write("Número de Jogadores: ");
-        qtdPessoas = int.Parse(Console.ReadLine());
+    Console.Write("Número de Iscas/Tentativas: ");
+    qtdIscas = int.Parse(Console.ReadLine());
 
-        Console.Write("Número de Iscas/Tentativas: ");
-        qtdIscas = int.Parse(Console.ReadLine());
-
-        if (qtdIscas == 0 || qtdPessoas == 0)
-        {
-            Console.WriteLine("Não é possível iniciar o jogo! Valor inserido inválido");
-            return;
-        }
-
+    if (qtdIscas == 0 || qtdPessoas == 0)
+    {
+        Console.WriteLine("Não é possível iniciar o jogo! Valor inserido inválido");
+        return;
+    }
+} while (qtdIscas == 0 || qtdPessoas == 0);
         string[] nomes = new string[qtdPessoas];
         int[,] escolha = new int[qtdIscas, qtdPessoas];
         int[] pontos = new int[qtdPessoas];
